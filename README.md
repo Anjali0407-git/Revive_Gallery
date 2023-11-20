@@ -1,1 +1,4 @@
 # Revive_Gallery
+This Software project is an innovative online marketplace named ReviveGallery designed for buying and selling second-hand goods. The novel feature of this software is the introduction of a unique trustworthiness scoring system that evaluates each user's credibility based on their history of completed transactions and the feedback and reviews from the buyers. Sellers who achieve high trustworthiness scores gain access to advanced features, including online delivery services and the ability to accept online payments.
+
+In addition to promoting customer trust, this marketplace incorporates cutting-edge AI techniques to conduct quality checks on each item in the gallery. Buyers can examine the item's quality and condition using the quality-checking option that is provided for each item.
