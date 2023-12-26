@@ -16,8 +16,7 @@ function ProductForm() {
     price: '',
     categories: [], // array to store selected categories
     images: [], // array to store selected images/image urls
-    // owner: '653f0b1b7aa28e72cb263133',
-    owner: user._id,
+    owner: user && user._id,
   });
 
   const handleInputChange = (e) => {
@@ -158,7 +157,7 @@ function ProductForm() {
             required
           >
             {categories.map((category) => (
-              <option value={category.name}>{category.name}</option>
+              <option key={category.name} value={category.name}>{category.name}</option>
             ))}
           </select>
         </div>

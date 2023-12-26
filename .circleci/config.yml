@@ -4,7 +4,8 @@ jobs:
   backend:
     docker:
       - image: circleci/node:14
-
+    environment:
+      MONGOMS_VERSION: 4.4.17
     steps:
       - checkout
       - run:
@@ -37,13 +38,13 @@ workflows:
       - backend:
           filters:
               branches:
-                only: main # only deploy when on main
+                only: main
       - frontend:
           requires:
             - backend
           filters:
             branches:
-              only: main # only deploy when on main
+              only: main
 
 
 

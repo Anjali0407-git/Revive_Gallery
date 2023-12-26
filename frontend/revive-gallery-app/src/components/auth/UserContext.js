@@ -2,10 +2,8 @@ import React, { createContext, useContext, useReducer } from "react";
 
 // Define an initial state for the user
 const initialState = {
-  user: localStorage.getItem("user") || null,
-  token: localStorage.getItem("token") || null,
-  // user: JSON.parse(localStorage.getItem("user")) || null,
-  // token: JSON.parse(localStorage.getItem("token")) || null,
+  user: JSON.parse(localStorage.getItem("user")) || null,
+  token: JSON.parse(localStorage.getItem("token")) || null, // You can use localStorage to store the token
 };
 
 const UserContext = createContext(initialState);
