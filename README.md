@@ -1,16 +1,48 @@
 
-# Revive_Gallery
+# Overview of the application Revive_Gallery
 
-Our software project is an innovative online marketplace named ReviveGallery designed for buying and selling second-hand goods. 
+Introducing ReviveGallery, an innovative online marketplace tailored for the buying and selling of second-hand goods. What sets our software apart is the groundbreaking inclusion of a unique trustworthiness scoring system. This system meticulously evaluates each user's credibility, drawing insights from their transaction history and incorporating feedback and reviews from buyers. Sellers who attain high trustworthiness scores gain exclusive access to advanced features, such as online delivery services and the capability to accept online payments.
 
-The novel feature of our software is the introduction of a unique trustworthiness scoring system that evaluates each user's credibility based on their history of completed transactions and the feedback and reviews from the buyers. Sellers who achieve high trustworthiness scores gain access to advanced features, including online delivery services and the ability to accept online payments.
+Our primary focus is on bridging the trust gap between buyers and sellers in the online marketplace. To foster customer confidence, we have developed a robust system that not only assesses user trustworthiness but also integrates cutting-edge AI techniques for comprehensive quality checks on every item featured in the gallery. For buyers, this means an enhanced experience with the ability to scrutinize the quality and condition of items through the provided quality-checking option.
 
-In addition to promoting customer trust, our marketplace incorporates cutting-edge A techniques to conduct quality checks on each item in the gallery. Buyers can examine the item's quality and condition using the quality-checking option that is provided for each item.
+ReviveGallery goes beyond conventional online marketplaces by revolutionizing user trust and ensuring the quality of second-hand items. This overview encapsulates the core features that make our application a secure and sophisticated platform for individuals seeking to buy or sell pre-owned goods.
 
-# Prerequisites
-This project requires the following installations to be installed React js for working and developing front-end applications, Flask for developing back-end applications, and MySql for creating SQL queries. 
+# Instructions for setting up a development environment
 
-# Usage
+1. Frontend Development (React.js):
+   - Begin by ensuring you have Node.js installed on your system.
+   - Clone the project repository from the provided source.
+   - Navigate to the frontend directory within the project.
+   - Run `npm install` to install the necessary dependencies.
+   - Execute `npm start` to launch the React development server.
+
+2. Backend Development (Node.js):
+   - Confirm that Node.js is installed on your machine.
+   - Move to the backend directory in the project.
+   - Utilize `npm install` to install essential Node.js packages.
+   - Initiate the backend server by running `npm start`.
+
+3. Image Storage (Firebase):
+   - Set up a Firebase account if you don't have one.
+   - Create a new Firebase project and note down the configuration details.
+   - Replace the existing Firebase configuration in the project's codebase with your newly acquired credentials.
+
+4. User Credentials Storage (MongoDB):
+   - Ensure access to an online MongoDB server or set up a new one.
+   - Replace the MongoDB connection string in the backend code with your server details.
+
+5. Environment Variables:
+   - Create a `.env` file in both the frontend and backend directories.
+   - Configure environment variables such as API keys, database credentials, and Firebase configurations in these files.
+
+6. Testing:
+   - Verify the setup by conducting test transactions and interactions with the application.
+   - Address any issues that may arise during testing.
+
+By following these instructions, we should have a functional development environment for ReviveGallery, incorporating React.js for the frontend, Node.js for the backend, Firebase for image storage, and an online MongoDB server for storing user credentials. This comprehensive setup will facilitate seamless collaboration and development for our innovative online marketplace.
+
+# Steps to build and run the application
+# Steps to build and run the forntend 
 1. Clone the repository: git clone https://github.com/SriHarikaV/Revive_Gallery.git
 2. Navigate to the project directory: cd frontend/revive-gallery-app
 3. Install all dependencies: npm install
@@ -19,9 +51,13 @@ This project requires the following installations to be installed React js for w
     This command will start a development server, and will notice that the output indicating that the application is running.
     Open web browser and go to http://localhost:3000. You will see the "Login" page, which is the LoginForm component.
 
-To run the backend application, please install the below packages and goto the backend directory and give the command to run: python -m flask --app .\app.py run
-pip install mysql-connector-python
-pip install bcrypt
-pip install flask
-Use postman to check the APi's
-below are the methods we used so far:
+# Steps to build and run the backend 
+1. Navigate to the project directory: cd Backend_NodeJS
+2. Install all dependencies: npm install
+3. Running the project:
+    npm start - This command will start a development server, and will notice that the output indicating that the application is running.
+
+# Information for evaluators and future developers 
+
+At present we have used linear transformation formuale for getting trustwothiness score in this case we can enchace our work by implementing machine learning models to find the trustworthiness score. 
+
