@@ -41,21 +41,30 @@ Our primary focus is on bridging the trust gap between buyers and sellers in the
 By following these instructions, we should have a functional development environment for ReviveGallery, incorporating React.js for the frontend, Node.js for the backend, Firebase for image storage, and an online MongoDB server for storing user credentials. This comprehensive setup will facilitate seamless collaboration and development for our innovative online marketplace.
 
 ## Steps to build and run the application
-### Steps to build and run the forntend 
+### Steps to build and run the forntend
+
 **1. Clone the repository:**
 `git clone https://github.com/Anjali0407-git/Revive_Gallery.git`
+
 **2. Navigate to the project directory:** 
 `cd frontend/revive-gallery-app`
+
 **3. Install all dependencies:**
 `npm install`
+
 **4. Running the Project:**
     `npm start`
     This command will start a development server, and will notice that the output indicating that the application is running.
     Open web browser and go to http://localhost:3000. You will see the "Login" page, which is the LoginForm component.
 
 ### Steps to build and run the backend 
-**1. Navigate to the project directory:**  `cd Backend_NodeJS`
-**2. Install all dependencies:** `npm install`
+
+**1. Navigate to the project directory:**
+  `cd Backend_NodeJS`
+
+**2. Install all dependencies:**
+ `npm install`
+
 **3. Running the project:**
     `npm start`
    This command will start a development server, and will notice that the output indicating that the application is running.
