@@ -1,13 +1,12 @@
 
-# Overview of the application Revive_Gallery
+# REVIVE GALLERY
+## Overview of the application Revive_Gallery
 
-Introducing ReviveGallery, an innovative online marketplace tailored for the buying and selling of second-hand goods. What sets our software apart is the groundbreaking inclusion of a unique trustworthiness scoring system. This system meticulously evaluates each user's credibility, drawing insights from their transaction history and incorporating feedback and reviews from buyers. Sellers who attain high trustworthiness scores gain exclusive access to advanced features, such as online delivery services and the capability to accept online payments.
+Introducing ReviveGallery, an innovative online marketplace tailored for the buying and selling of second-hand goods. What sets this software apart is the groundbreaking inclusion of a unique trustworthiness scoring system. This system meticulously evaluates each user's credibility incorporating feedback and reviews from buyers. Sellers who attain high trustworthiness scores gain exclusive access to advanced features, such as online delivery services and the capability to accept online payments.
 
-Our primary focus is on bridging the trust gap between buyers and sellers in the online marketplace. To foster customer confidence, we have developed a robust system that not only assesses user trustworthiness but also integrates cutting-edge AI techniques for comprehensive quality checks on every item featured in the gallery. For buyers, this means an enhanced experience with the ability to scrutinize the quality and condition of items through the provided quality-checking option.
+Our primary focus is on bridging the trust gap between buyers and sellers in the online marketplace. To foster customer confidence, we have developed a robust system that assesses user trustworthiness. ReviveGallery goes beyond conventional online marketplaces by revolutionizing user trust and ensuring the quality of second-hand items. This overview encapsulates the core features that make our application a secure and sophisticated platform for individuals seeking to buy or sell pre-owned goods.
 
-ReviveGallery goes beyond conventional online marketplaces by revolutionizing user trust and ensuring the quality of second-hand items. This overview encapsulates the core features that make our application a secure and sophisticated platform for individuals seeking to buy or sell pre-owned goods.
-
-# Instructions for setting up a development environment
+## Instructions for setting up a development environment
 
 1. Frontend Development (React.js):
    - Begin by ensuring you have Node.js installed on your system.
@@ -41,23 +40,27 @@ ReviveGallery goes beyond conventional online marketplaces by revolutionizing us
 
 By following these instructions, we should have a functional development environment for ReviveGallery, incorporating React.js for the frontend, Node.js for the backend, Firebase for image storage, and an online MongoDB server for storing user credentials. This comprehensive setup will facilitate seamless collaboration and development for our innovative online marketplace.
 
-# Steps to build and run the application
-# Steps to build and run the forntend 
-1. Clone the repository: git clone https://github.com/SriHarikaV/Revive_Gallery.git
-2. Navigate to the project directory: cd frontend/revive-gallery-app
-3. Install all dependencies: npm install
+## Steps to build and run the application
+### Steps to build and run the forntend 
+1. Clone the repository: 
+`git clone https://github.com/Anjali0407-git/Revive_Gallery.git`
+2. Navigate to the project directory: 
+`cd frontend/revive-gallery-app`
+3. Install all dependencies: 
+`npm install`
 4. Running the Project:
-    npm start
+    `npm start`
     This command will start a development server, and will notice that the output indicating that the application is running.
     Open web browser and go to http://localhost:3000. You will see the "Login" page, which is the LoginForm component.
 
-# Steps to build and run the backend 
-1. Navigate to the project directory: cd Backend_NodeJS
-2. Install all dependencies: npm install
+### Steps to build and run the backend 
+1. Navigate to the project directory:  `cd Backend_NodeJS`
+2. Install all dependencies: `npm install`
 3. Running the project:
-    npm start - This command will start a development server, and will notice that the output indicating that the application is running.
+    `npm start`
+   This command will start a development server, and will notice that the output indicating that the application is running.
 
 # Information for evaluators and future developers 
 
-At present we have used linear transformation formuale for getting trustwothiness score in this case we can enchace our work by implementing machine learning models to find the trustworthiness score. 
+At present linear transformation formuale is used for getting trustwothiness score in this case which can be enchaced by implementing machine learning models to find the trustworthiness score. 
 
